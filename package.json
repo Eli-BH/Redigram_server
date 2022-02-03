@@ -17,6 +17,8 @@
     "dotenv": "^15.0.0",
     "express": "^4.17.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.1.9"
+    "mongoose": "^6.1.9",
+    "snoowrap": "^1.23.0",
+    "user-agents": "^1.0.915"
   }
 }

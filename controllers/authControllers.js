@@ -20,7 +20,7 @@ const authRegister = async (req, res) => {
       {
         userId: newUser._id,
       },
-      process.env.JWT_TOKEN
+      "superdupersecret"
     );
 
     res.status(201).json({ message: "New user created", token });
